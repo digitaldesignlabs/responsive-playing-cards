@@ -1,7 +1,7 @@
 Responsive Playing Cards
 ========================
 
-tldr; Responsive SVG playing cards. Most cards ~2K, picture cards are ~65k. With gzip, they're about half that. When rendered (= 75px wide, they switch to a simpler layout for readability.
+tldr; Responsive SVG playing cards. Most cards ~2K, picture cards are ~65k. With gzip, they're about half that. When rendered <= 75px wide, they switch to a simpler layout for readability.
 
 LGPL licensed.
 
