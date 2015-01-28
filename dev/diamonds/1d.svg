@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.2" baseProfile="tiny"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="225px" height="314px"
+    viewBox="0 0 225 314" preserveAspectRatio="xMinYMin meet">
+    <defs>
+        <style type="text/css">
+            use { fill: #d40000; }
+
+            .maxi-card { display: none; }
+            .mini-card { display: block; }
+
+            @media (min-width: 75px) {
+                .maxi-card { display: block; }
+                .mini-card { display: none; }
+            }
+        </style>
+
+        <path id="suit" d="M7,29.227
+            C17.043,19.916,23.639,9.763,29.947,0C35.478,10.743,43.415,20.142,52,29.227C42.816,38.238,35.698,47.871,29.973,58
+            C23.629,47.617,16.949,38.216,7,29.227z"/>
+        <path id="numeral" d="M0,32.008V29.27h2.661L8.325,0h3.224l6.242,29.27h2.147v2.738h-7.317V29.27h1.977l-0.787-4.484
+            H6.426l-0.57,4.484h1.978v2.738H0z M13.178,21.592L9.971,5.922l-3.008,15.67H13.178z"/>
+    </defs>
+
+    <rect width="100%" height="100%" x="0" y="0" fill="#fefefe"/>
+
+    <!-- Little Card -->
+    <g class="mini-card">
+        <use xlink:href="#numeral" transform="matrix(3.5,0,0,3.5,78.4,33.95)"/>
+        <use xlink:href="#suit" transform="matrix(2,0,0,2,55.5,170)"/>
+    </g>
+
+    <!-- Big Card -->
+    <g class="maxi-card">
+
+        <!-- Top Numeral and Suit -->
+        <use xlink:href="#numeral" transform="matrix(1,0,0,1,7,12)"/>
+        <use xlink:href="#suit" transform="matrix(0.4,0,0,0.4,6,51)"/>
+
+        <!-- Bottom Numeral and Suit -->
+        <use xlink:href="#numeral" transform="matrix(-1,0,0,-1,218,302)"/>
+        <use xlink:href="#suit" transform="matrix(-0.4,0,0,-0.4,218,263)"/>
+
+        <!-- Card Face -->
+        <use xlink:href="#suit" transform="matrix(1,0,0,1,84,128.5)"/><!-- center center -->
+    </g>
+</svg>
