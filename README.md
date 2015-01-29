@@ -34,7 +34,7 @@ The cards are specified in SVG Tiny 1.2, and have been tested on Chrome 40, Fire
 
 Bugs
 ----
-The “mini” versions of the cards (< 75px) don’t render on Firefox for Android, or on Mobile Safari 6. Instead, the big cards are displayed.
+The “mini” versions of the cards won’t render on Firefox for Android, Mobile Safari 6, and Android Browser 4.1, because they don’t support media queries inside SVG. But the big cards are displayed instead, so at least it fails nicely!
 
 Credits
 -------
