@@ -15,7 +15,18 @@ What do you get?
 ----------------
 Each card has been hand-optimized to reduce the file size as far as possible, by re-using and transforming paths. This takes the size of a normal card down from ~6.5k to about ~2.5k (~1.7k minified, 800b minified + zipped).  Picture cards are obviously more complex, at ~90k (~65k minified, ~30k minified + zipped).
 
-On top of that, the cards have embedded media queries, which display a simpler layout if the card is scaled below 75px wide.
+<div style="background:#efefef;padding:6px;max-width:790px">
+  <img src="minified/diamonds/3d.svg" width="200" alt="Three of Diamonds, 200px wide" style="vertical-align:bottom;border-radius:4%;box-shadow:0 0 6px #ccc;margin-right:5px">
+  <img src="minified/diamonds/3d.svg" width="160" alt="Three of Diamonds, 160px wide" style="vertical-align:bottom;border-radius:4%;box-shadow:0 0 6px #ccc;margin-right:5px">
+  <img src="minified/diamonds/3d.svg" width="120" alt="Three of Diamonds, 120px wide" style="vertical-align:bottom;border-radius:4%;box-shadow:0 0 6px #ccc;margin-right:5px">
+  <img src="minified/diamonds/3d.svg" width="80" alt="Three of Diamonds, 80px wide" style="vertical-align:bottom;border-radius:4%;box-shadow:0 0 6px #ccc;margin-right:5px">
+  <img src="minified/diamonds/3d.svg" width="60" alt="Three of Diamonds, 60px wide" style="vertical-align:bottom;border-radius:4%;box-shadow:0 0 6px #ccc;margin-right:5px">
+  <img src="minified/diamonds/3d.svg" width="40" alt="Three of Diamonds, 40px wide" style="vertical-align:bottom;border-radius:4%;box-shadow:0 0 6px #ccc;margin-right:5px">
+  <img src="minified/diamonds/3d.svg" width="30" alt="Three of Diamonds, 30px wide" style="vertical-align:bottom;border-radius:4%;box-shadow:0 0 6px #ccc;margin-right:5px">
+  <img src="minified/diamonds/3d.svg" width="20" alt="Three of Diamonds, 20px wide" style="vertical-align:bottom;border-radius:4%;box-shadow:0 0 6px #ccc">
+</div>
+
+The cards also have embedded media queries, which display a simpler layout if the card is scaled below 75px wide.
 
 Platforms
 ---------
