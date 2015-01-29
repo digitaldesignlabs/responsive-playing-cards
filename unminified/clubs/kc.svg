@@ -2,15 +2,11 @@
 <svg version="1.2" baseProfile="tiny"
     xmlns="http://www.w3.org/2000/svg"
     xmlns:svg="http://www.w3.org/2000/svg"
-    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="225px" height="314px"
-    viewBox="0 0 225 314" preserveAspectRatio="xMinYMin meet">
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    viewBox="0 0 225 314" width="225px" height="314px">
     <defs>
-        <style type="text/css">
-            use { fill: black; }
-
+        <style>
             .maxi-card { display: none; }
-            .mini-card { display: block; }
-
             @media (min-width: 75px) {
                 .maxi-card { display: block; }
                 .mini-card { display: none; }
@@ -50,7 +46,7 @@
         <!-- Card Face -->
         <use xlink:href="#suit" transform="matrix(0.8,0,0,0.8,38,40)"/><!-- top left -->
         <use xlink:href="#suit" transform="matrix(-0.8,0,0,-0.8,186,274)"/><!-- bottom right -->
-        
+
         <path fill="#E2CF00" d="M161.2,29.84l-80.525,0.393l10.228,19.372c20.928-1.883,39.269-0.209,58.375,0.415L161.2,29.84z M106.204,97.952
             c-0.084,0.113-3.351,0.957-3.019,1.697c8.527,18.254,12.335,33.108,15.898,51.869c1.799-1.461,4.711-1.402,4.711-1.402
             c-1.436-6.967,7.348-7.834,7.406-0.547c1.686,0.393,3.42,0.397,4.94,2.102c0.687-20.504,8.043-41.717,17.545-56.414

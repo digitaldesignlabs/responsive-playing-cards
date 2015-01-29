@@ -2,15 +2,12 @@
 <svg version="1.2" baseProfile="tiny"
     xmlns="http://www.w3.org/2000/svg"
     xmlns:svg="http://www.w3.org/2000/svg"
-    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="225px" height="314px"
-    viewBox="0 0 225 314" preserveAspectRatio="xMinYMin meet">
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    viewBox="0 0 225 314" width="225px" height="314px"
+    fill="#d40000">
     <defs>
-        <style type="text/css">
-            use { fill: #d40000; }
-
+        <style>
             .maxi-card { display: none; }
-            .mini-card { display: block; }
-
             @media (min-width: 75px) {
                 .maxi-card { display: block; }
                 .mini-card { display: none; }
@@ -27,7 +24,7 @@
             h11.631v-4.295h3.427v7.908L0,32.676z"/>
     </defs>
 
-    <rect width="100%" height="100%" x="0" y="0" fill="#fefefe"/>
+    <rect width="100%" height="100%" fill="#fefefe"/>
 
     <!-- Little Card -->
     <g class="mini-card">
